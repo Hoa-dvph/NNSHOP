@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.logoHeader {
+    display: flex;
+    align-items: center;
+}
+
+.logoHeader a {
+    margin-right: 20px;
+}
+
+.logoHeader p {
+    font-size: x-large;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+.menu ul {
+    margin-left: auto;
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li {
+    margin: 0 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.iconNavigate i {
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.box-left {
+    flex: 1;
+}
+
+.box-right {
+    flex: 0 0 calc(35% - 60px);
+    margin-left: 60px;
+    background-color: #F9F1E7;
+    height: 400px;
+    line-height: 50px;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+thead {
+    background-color: #F9F1E7;
+}
+
+table th, table td {
+    padding: 10px 0;
+}
+
+.price {
+    color: #9F9F9F;
+}
+
+.price-total {
+    color: #B88E2F;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.subtotal {
+    margin-top: 50px;
+}
+
+.services {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services img {
+    height: 70px;
+}
+
+footer {
+    display: flex;
+    margin-top: 30px;
+    line-height: 50px;
+    font-weight: 500;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.title-footer {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.newletter input,
+.newletter button {
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 10px;
+}
+
+input::placeholder {
+    font-weight: 400;
+    color: #9F9F9F;
+}
+
+hr {
+    border-color: black;
+    border-width: 0.1px;
+}
